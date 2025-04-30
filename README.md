@@ -1,5 +1,5 @@
 
-# 🎯 Personalized Data Science Quiz Generator (AI Agent)
+# 🎯 Interactive Data Science Quiz Platform
 
 An **AI-powered interactive quiz platform** for Data Science enthusiasts that dynamically generates quizzes based on your **chosen topic** and **skill level**. Built using a pre-tagged **JSON dataset**, fine-tuned LLMs (DeepSeek-v1 7B via Ollama), and an intuitive **Streamlit** front-end. Includes **personalized feedback generation** using LLM reasoning for every quiz session.
 
