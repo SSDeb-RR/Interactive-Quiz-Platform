@@ -1,0 +1,542 @@
+[
+    {
+        "question": "What is the output of print(2 ** 3)?",
+        "options": [
+            "5",
+            "6",
+            "8",
+            "9"
+        ],
+        "answer": "8",
+        "subject": "Python",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which keyword is used for function in Python?",
+        "options": [
+            "func",
+            "define",
+            "def",
+            "function"
+        ],
+        "answer": "def",
+        "subject": "Python",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the output of len('hello')?",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "None of the above"
+        ],
+        "answer": "5",
+        "subject": "Python",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which of the following is a list in Python?",
+        "options": [
+            "{1,2,3}",
+            "(1,2,3)",
+            "[1,2,3]",
+            "<1,2,3>"
+        ],
+        "answer": "[1,2,3]",
+        "subject": "Python",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does the '//' operator do in Python?",
+        "options": [
+            "Adds numbers",
+            "Integer division",
+            "Modulus",
+            "Exponentiation"
+        ],
+        "answer": "Integer division",
+        "subject": "Python",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the output of list(range(2, 10, 2))?",
+        "options": [
+            "[2, 4, 6, 8]",
+            "[2, 3, 4, 5, 6, 7, 8, 9]",
+            "[2, 4, 6, 8, 10]",
+            "[2, 6, 10]"
+        ],
+        "answer": "[2, 4, 6, 8]",
+        "subject": "Python",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which method is used to add an element at the end of a list?",
+        "options": [
+            "append()",
+            "add()",
+            "insert()",
+            "extend()"
+        ],
+        "answer": "append()",
+        "subject": "Python",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What will be the output of: x = [1,2,3]; print(x[::-1])?",
+        "options": [
+            "[3,2,1]",
+            "[1,2,3]",
+            "[1,3,2]",
+            "Syntax Error"
+        ],
+        "answer": "[3,2,1]",
+        "subject": "Python",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of the following is used to define a block of code in Python?",
+        "options": [
+            "Curly braces",
+            "Parentheses",
+            "Indentation",
+            "Quotes"
+        ],
+        "answer": "Indentation",
+        "subject": "Python",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the output of: bool(0)?",
+        "options": [
+            "True",
+            "False",
+            "0",
+            "None"
+        ],
+        "answer": "False",
+        "subject": "Python",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What will be the output of: print({x: x**2 for x in range(3)}[2])?",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "Error"
+        ],
+        "answer": "4",
+        "subject": "Python",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which module is used to serialize Python objects?",
+        "options": [
+            "marshal",
+            "json",
+            "pickle",
+            "serialize"
+        ],
+        "answer": "pickle",
+        "subject": "Python",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does the zip() function do?",
+        "options": [
+            "Compress files",
+            "Merge two lists",
+            "Create tuples from multiple lists",
+            "Both B and C"
+        ],
+        "answer": "Both B and C",
+        "subject": "Python",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the output of: print(list(map(lambda x: x * 2, [1, 2, 3])))?",
+        "options": [
+            "[1, 2, 3]",
+            "[2, 4, 6]",
+            "[1, 4, 9]",
+            "Error"
+        ],
+        "answer": "[2, 4, 6]",
+        "subject": "Python",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does the global keyword do in Python?",
+        "options": [
+            "Declares a variable globally",
+            "Creates a class variable",
+            "Defines a constant",
+            "Makes a function global"
+        ],
+        "answer": "Declares a variable globally",
+        "subject": "Python",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of the following is a supervised learning algorithm?",
+        "options": [
+            "K-Means",
+            "Linear Regression",
+            "PCA",
+            "t-SNE"
+        ],
+        "answer": "Linear Regression",
+        "subject": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the output of a classification algorithm?",
+        "options": [
+            "Continuous value",
+            "Discrete label",
+            "Image",
+            "Vector"
+        ],
+        "answer": "Discrete label",
+        "subject": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which library is used in Python for machine learning?",
+        "options": [
+            "NumPy",
+            "scikit-learn",
+            "OpenCV",
+            "NLTK"
+        ],
+        "answer": "scikit-learn",
+        "subject": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which metric is suitable for imbalanced classification?",
+        "options": [
+            "Accuracy",
+            "Precision",
+            "Recall",
+            "F1 Score"
+        ],
+        "answer": "F1 Score",
+        "subject": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is overfitting in ML?",
+        "options": [
+            "Model performs poorly",
+            "Model fits noise in training data",
+            "Model fits test data",
+            "None"
+        ],
+        "answer": "Model fits noise in training data",
+        "subject": "Machine Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which technique is used to reduce the number of input variables?",
+        "options": [
+            "Normalization",
+            "Regularization",
+            "Dimensionality Reduction",
+            "Gradient Descent"
+        ],
+        "answer": "Dimensionality Reduction",
+        "subject": "Machine Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What does L2 regularization add to the cost function?",
+        "options": [
+            "Absolute value of weights",
+            "Square of weights",
+            "Sum of outputs",
+            "Loss function"
+        ],
+        "answer": "Square of weights",
+        "subject": "Machine Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which activation function can suffer from vanishing gradient problem?",
+        "options": [
+            "ReLU",
+            "Sigmoid",
+            "Tanh",
+            "All of the above"
+        ],
+        "answer": "Sigmoid",
+        "subject": "Deep Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which algorithm is used for regression tasks?",
+        "options": [
+            "Logistic Regression",
+            "SVM with RBF Kernel",
+            "KNN",
+            "Ridge Regression"
+        ],
+        "answer": "Ridge Regression",
+        "subject": "Machine Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of the following is a tree-based model?",
+        "options": [
+            "Naive Bayes",
+            "Decision Tree",
+            "Linear Regression",
+            "SVM"
+        ],
+        "answer": "Decision Tree",
+        "subject": "Machine Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the output of Principal Component Analysis?",
+        "options": [
+            "Sparse matrix",
+            "New features with max variance",
+            "Reduced test error",
+            "Normalized matrix"
+        ],
+        "answer": "New features with max variance",
+        "subject": "Machine Learning",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which method optimizes a loss function iteratively?",
+        "options": [
+            "Gradient Descent",
+            "KMeans",
+            "PCA",
+            "Random Forest"
+        ],
+        "answer": "Gradient Descent",
+        "subject": "Machine Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which technique uses Bayes' theorem with strong independence assumptions?",
+        "options": [
+            "Naive Bayes",
+            "SVM",
+            "Random Forest",
+            "XGBoost"
+        ],
+        "answer": "Naive Bayes",
+        "subject": "Machine Learning",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which ensemble technique combines weak learners sequentially?",
+        "options": [
+            "Random Forest",
+            "AdaBoost",
+            "Bagging",
+            "Gradient Boosting"
+        ],
+        "answer": "Gradient Boosting",
+        "subject": "Machine Learning",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which term measures how much the model is influenced by noise in the data?",
+        "options": [
+            "Variance",
+            "Bias",
+            "Overfitting",
+            "Generalization"
+        ],
+        "answer": "Variance",
+        "subject": "Machine Learning",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which library is commonly used for deep learning in Python?",
+        "options": [
+            "scikit-learn",
+            "NumPy",
+            "TensorFlow",
+            "matplotlib"
+        ],
+        "answer": "TensorFlow",
+        "subject": "Deep Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is a neuron in a neural network?",
+        "options": [
+            "A brain cell",
+            "A mathematical function",
+            "A biological cell",
+            "None"
+        ],
+        "answer": "A mathematical function",
+        "subject": "Deep Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which activation function outputs a value between 0 and 1?",
+        "options": [
+            "ReLU",
+            "Sigmoid",
+            "Tanh",
+            "Softmax"
+        ],
+        "answer": "Sigmoid",
+        "subject": "Deep Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which layer is used to reduce spatial dimensions?",
+        "options": [
+            "Dense",
+            "Pooling",
+            "Convolution",
+            "Dropout"
+        ],
+        "answer": "Pooling",
+        "subject": "Deep Learning",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which optimizer adapts the learning rate using estimates of first and second moments?",
+        "options": [
+            "SGD",
+            "Momentum",
+            "Adam",
+            "RMSprop"
+        ],
+        "answer": "Adam",
+        "subject": "Deep Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which RNN variant helps overcome long-term dependency problems?",
+        "options": [
+            "Vanilla RNN",
+            "GRU",
+            "FFNN",
+            "DenseNet"
+        ],
+        "answer": "GRU",
+        "subject": "Deep Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the purpose of dropout in neural networks?",
+        "options": [
+            "Increase accuracy",
+            "Prevent overfitting",
+            "Speed up training",
+            "Change loss function"
+        ],
+        "answer": "Prevent overfitting",
+        "subject": "Deep Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which deep learning task uses CNNs the most?",
+        "options": [
+            "Speech recognition",
+            "Image classification",
+            "Time series forecasting",
+            "Text generation"
+        ],
+        "answer": "Image classification",
+        "subject": "Deep Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which function is typically used in the final layer of binary classification?",
+        "options": [
+            "Softmax",
+            "Sigmoid",
+            "Tanh",
+            "ReLU"
+        ],
+        "answer": "Sigmoid",
+        "subject": "Deep Learning",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which loss is used for binary classification?",
+        "options": [
+            "Mean Squared Error",
+            "Categorical Crossentropy",
+            "Binary Crossentropy",
+            "Huber Loss"
+        ],
+        "answer": "Binary Crossentropy",
+        "subject": "Machine Learning",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which architecture forms the basis of transformer models?",
+        "options": [
+            "RNN",
+            "CNN",
+            "Self-attention",
+            "GRU"
+        ],
+        "answer": "Self-attention",
+        "subject": "Deep Learning",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which technique is used to prevent exploding gradients?",
+        "options": [
+            "Dropout",
+            "BatchNorm",
+            "Gradient Clipping",
+            "ReLU"
+        ],
+        "answer": "Gradient Clipping",
+        "subject": "Deep Learning",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which model uses multi-head attention and feedforward layers?",
+        "options": [
+            "LSTM",
+            "Transformer",
+            "CNN",
+            "BERT"
+        ],
+        "answer": "Transformer",
+        "subject": "Deep Learning",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which concept describes learning from a large model to a smaller one?",
+        "options": [
+            "Transfer Learning",
+            "Distillation",
+            "Fine-tuning",
+            "Compression"
+        ],
+        "answer": "Distillation",
+        "subject": "Deep Learning",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which optimizer works best for sparse gradients?",
+        "options": [
+            "Adam",
+            "SGD",
+            "RMSprop",
+            "Adagrad"
+        ],
+        "answer": "Adagrad",
+        "subject": "Deep Learning",
+        "difficulty": "Hard"
+    }
+]
