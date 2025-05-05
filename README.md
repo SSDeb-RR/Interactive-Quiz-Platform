@@ -1,7 +1,7 @@
 
 # 🎯 Interactive Data Science Quiz Platform
 
-An **AI-powered interactive quiz platform** for Data Science enthusiasts that dynamically generates quizzes based on your **chosen topic** and **skill level**. Built using a pre-tagged **JSON dataset**, fine-tuned LLMs (DeepSeek-v1 7B via Ollama), and an intuitive **Streamlit** front-end. Includes **personalized feedback generation** using LLM reasoning for every quiz session.
+An **AI-powered interactive quiz platform** for Data Science enthusiasts that dynamically generates quizzes based on your **chosen topic** and **skill level**. Built using a pre-tagged **JSON dataset**, fine-tuned LLMs (Llama 3.3 70B Versatile), and an intuitive **Streamlit** front-end. Includes **personalized feedback generation** using LLM reasoning for every quiz session.
 
 ### Project Walkthrough Video Link: https://youtu.be/pSVWaoXjTGQ
 ### Streamlit App Demo Video Link: https://youtu.be/NQpqMKyUqUM
@@ -56,8 +56,8 @@ Users select their desired topic and proficiency level, and the system generates
 | Tool        | Use Case                                |
 |-------------|------------------------------------------|
 | **Streamlit** | Front-end quiz interface                 |
-| **Langflow**  | Chain design and modular orchestration   |
-| **Ollama**    | Local LLM inference with DeepSeek-v1 7B |
+| **Langchain**  | Chain design and modular orchestration   |
+| **Groq Console**    | Library of Open-source LLMs |
 | **Python**    | Core logic and glue code                |
 | **JSON**      | Local storage for the full question dataset |
 | **LLM Prompting** | For tagging, quiz generation, and feedback |
@@ -65,11 +65,6 @@ Users select their desired topic and proficiency level, and the system generates
 ---
 
 ## ⚙️ Setup Instructions
-
-> Make sure you have [Ollama](https://ollama.com/) installed locally and DeepSeek-v1 model pulled:
-```bash
-ollama run deepseek-coder:7b
-```
 
 ### 1. Clone the Repository
 
@@ -93,7 +88,7 @@ streamlit run main.py
 ---
 
 ## 📌 Future Improvements
-
+- [ ] Add number of questions as a dynamic parameter  
 - [ ] Add user authentication (login, history tracking)  
 - [ ] Enhance question variety with broader JSON sources  
 - [ ] Include visual and code-based interactive questions  
